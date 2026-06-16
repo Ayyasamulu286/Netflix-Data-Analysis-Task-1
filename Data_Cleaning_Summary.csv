@@ -1,0 +1,5 @@
+Task,Status/Count
+Duplicate Rows,0 duplicates removed
+Column Names,Renamed to snake_case
+Date Format,Converted to YYYY-MM-DD
+Missing Values (Date_Added),10 rows with missing dates
