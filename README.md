@@ -1,18 +1,49 @@
-# Netflix-Data-Analysis-Task-1# Netflix Data Cleaning Project
+# Task 1 - Data Cleaning and Preprocessing
 
-## Project Overview
-This project involved cleaning and preprocessing a Netflix dataset to prepare it for further analytical insights.
+## Objective
+Clean and preprocess the Netflix Movies and TV Shows dataset by handling missing values, removing duplicates, standardizing formats, and preparing the dataset for analysis.
 
-## Tasks Performed
-- Removed duplicate rows.
-- Standardized date formats to YYYY-MM-DD.
-- Cleaned and renamed columns to snake_case.
-- Performed text formatting on categorical data.
+## Dataset
+Netflix Movies and TV Shows Dataset
 
-## Files
-- `Cleaned_Netflix_Data.csv`: Final processed dataset.
-- `Data_Cleaning_Summary.csv`: Audit log of cleaning steps.
-- `Netflix_Data_Cleaning_Report.pdf`: Professional summary report of the methodology.
+## Tools Used
+- Python
+- Pandas
+- Google Colab
 
-## Tools
-- Python, Pandas
+## Data Cleaning Steps
+
+### 1. Missing Values
+- Checked missing values using isnull().
+- Filled missing values in director, cast, country, and rating columns.
+
+### 2. Duplicate Records
+- Identified duplicate rows.
+- Removed duplicates using drop_duplicates().
+
+### 3. Text Standardization
+- Removed extra spaces.
+- Standardized text formatting.
+
+### 4. Date Formatting
+- Converted date_added column to datetime format.
+
+### 5. Column Name Cleaning
+- Converted column names to lowercase.
+- Replaced spaces with underscores.
+
+### 6. Data Type Validation
+- Checked and corrected data types.
+
+## Output
+cleaned_dataset.csv
+
+## Files Included
+- Original Dataset
+- Cleaned Dataset
+- Google Colab Notebook
+- Screenshots
+- README
+
+## Author
+Your Name
